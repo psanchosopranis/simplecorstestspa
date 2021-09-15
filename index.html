@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+</head>
+<body>
+    <h1>Request</h1>
+    <p>
+        <span>
+            <button id="getBtn">GET Request</button>
+            <button id="postBtn">POST Request</button>
+        </span>
+    </p>
+    <script src="/js/request.js"></script>
+    <script>
+        document.getElementById("getBtn").addEventListener("click", function() {
+            getRequest();
+        });
+
+        document.getElementById("postBtn").addEventListener("click", function() {
+            postRequest();
+        });
+    </script>
+</body>
+</html>
